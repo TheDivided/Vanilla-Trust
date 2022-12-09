@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="assets/main.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&display=swap" rel="stylesheet">
+		<title>Vanilla-Trust >> Приватный сервер</title>
+	</head>
+	<body>
+	
+	<header class="header">
+		<div class="container1">
+		
+			<div class="header__inner">
+			<br><br>
+				<nav class="nav">
+					<div class="container">
+					<h1>Vanilla-Trust</h1>
+					</div>
+					<div class="links">
+					<a class="nav__link" type="button" onclick="Copy()" id="myInput">play.vanilla-trust.xyz</a>
+					<a class="nav__link" href="index.html">Главная</a>
+					<a class="nav__link" href="prohodka.html">Проходка</a>
+          <a class="nav__link1" href="https://discord.gg/nSBBmtZf2s" target="_blank">Discord</a>
+					</div>
+				</nav>  
+			</div>
+		</div>
+		<br>
+	</header>
+	<br><br><br><br>
+	<div class="buy">
+		<form method="POST">
+			<br>
+			<h2>Проходка</h2>
+				<p>Для того, чтобы играть на сервере, вам нужно преобрести проходку за 100 рублей.<br>
+				В нике вы указываете ваш Minecraft-ник,<br>
+				а в сообщении ваш DS.<br>
+                Учтите, что мы принимаем все валюты.</p>
+				<img src="https://i.postimg.cc/Dy728bCT/qiwiqiwi.png" width="500"><br><br>
+				<p id="alreadyt"></p>
+			<button type="button" class="but_button" onclick="window.location.href = 'https://qiwi.com/n/DERILAT';">Купить проходку</button><br><br>
+		</form>
+		<div class="main1">
+	</div>
+	</div>
+	</body>
+	<script>
+				function clickfunction(){
+					document.getElementById("alreadyt").innerHTML = document.getElementById("inper").value + ", вы уже имеете проходку!";
+					return;
+				}
+	</script>
+</html>
